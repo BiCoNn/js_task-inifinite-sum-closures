@@ -16,7 +16,7 @@ When calling without parameters, it will return the result and clear the amount.
 Example:
 ```js
 const adder = makeAdder();
-
+//this line only for testing
 console.log(
   adder(), // 0
   adder(4)(5)(), // 9
